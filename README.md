@@ -73,28 +73,3 @@ del dataset original):
 **Siempre se debe empezar por la opción 1** para cargar el dataset. Después
 de eso, las opciones 2, 3 y 4 se pueden ejecutar en cualquier orden y las
 veces que se quiera.
-
-## Resultados obtenidos (ejemplo de una corrida real)
-
-| Algoritmo | Tiempo (ms) | Memoria aprox. | ¿Ordenó bien? |
-|---|---|---|---|
-| QuickSort | ~55-60 ms | ~4.1 MB | Sí |
-| HeapSort | ~70 ms | ~4.1 MB | Sí |
-| Árbol AVL | ~53-55 ms | ~6.5 MB | Sí |
-
-*(Los tiempos exactos varían un poco entre corridas y entre máquinas, esto es
-normal en cualquier medición de rendimiento.)*
-
-## Dataset
-
-El dataset se derivó del archivo `words_alpha.txt` (una lista extensa de
-palabras en inglés). Como el archivo original ya venía ordenado
-alfabéticamente, se seleccionaron aleatoriamente 100.000 palabras para armar
-`dataset.txt`, que es el que usa el programa como entrada.
-
-## Documentos adicionales
-
-- `Informe_Final.docx`: informe con la explicación de la implementación, los
-  resultados de rendimiento y el análisis comparativo.
-- `Guia_de_Sustentacion.md`: guía de apoyo para la defensa en clase (qué
-  mostrar, preguntas típicas y cómo responderlas).
